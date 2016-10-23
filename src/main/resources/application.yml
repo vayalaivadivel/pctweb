@@ -1,0 +1,9 @@
+## YAML Template.
+---
+server.port: 9013
+server.contextPath: /pct
+spring.mvc.view:
+    prefix: /WEB-INF/jsp/
+    suffix: .jsp
+    
+welcome.messge: Pournami Charitable Trust
