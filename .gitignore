@@ -1,12 +1,32 @@
-*.class
+# .gitignore for spring boot application
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# application build files
+/build
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# application gradle files and dependencies
+/.gradle
+/lib
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# logs
+/stacktrace.log
+/test/reports
+/logs
+
+# project release file
+/*.war
+
+# "temporary" build files
+/target
+
+#Idea files
+/*.iml
+/.idea
+
+/wrapper
+
+/out
+
+/.nb-gradle/
+
+/.gradle
+/.nb-gradle
